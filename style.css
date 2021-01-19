@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.zaglavlje {
+    background-color: rgb(20, 10, 4);
+    height: 150px;
+}
+.zaglavlje h1 {
+    color: rgb(233, 169, 50);
+    font-size: 200%;
+    text-transform:uppercase; 
+    text-align:center;
+    padding-top:20px;
+    }
+.meni {
+    background-color: rgb(179, 141, 71);
+    height: 70px;
+    background-size:cover;
+    }
+
+
+.meni li {
+    display: inline-block;
+    padding-left: 25px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    }
+.meni h2 {
+    font-size: 50px;
+    color:rgb(56, 35, 11);
+    text-transform: uppercase;
+    padding-left:55px;
+    padding-top: 10px;
+    
+}
+.meni li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+.meni a:link {
+    
+    color: black;
+}
+.meni a:hover{
+    color:rgb(87, 10, 10);
+}
+.glavni {
+    padding-top: 100px;
+    
+  
+    
+}
+.glavni .pasus {
+    background-color: rgb(139, 29, 29);
+    height: 400px;
+    -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 10px rgba(0,0,0,1);
+    box-shadow: gray;
+}
+.glavni .pasus h2 {
+color:wheat;
+text-align: center;
+padding-top: 15px;
+text-transform: uppercase;
+}
+.glavni .pasus p {
+    padding: 25px;
+    color:gray;
+}
+.glavni .pasus p:hover {
+   color: rgb(37, 7, 7);
+}
+
+.glavni .pasus:hover {
+    background-color: rgb(192, 224, 104);
+    margin-top: -30px;
+    -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,5);
+    -moz-box-shadow:0px 0px 10px rgba(0,0,0,5);
+    box-shadow: gray;
+}
+
+.podnozje {
+    margin-top:100px;
+    background-color: gray;
+    background-size: cover;
+    
+    
+}
+   
+.podnozje p {
+    color: rgb(65, 68, 70);
+    padding-top:15px;
+}
+.podnozje .slika {
+    padding-left: 30%;
+    margin-top: -30px;
+ 
+}
